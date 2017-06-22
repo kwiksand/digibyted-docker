@@ -1,12 +1,9 @@
 ---
-client:
+daemon:
+#  build: .
   image: digibyted:latest
   ports:
-   - "10332:10332"
-   - "10333:10333"
+   - "12024:12024"
+   - "14022:14022"
   volumes:
    - /media/crypto/digibyte:/home/digibyte/.digibyte
-#   - ./runit/service:/etc/service
-#     privileged: true
-#       dns: 8.8.8.8
-#       #  restart: always

@@ -17,7 +17,7 @@ RUN cd /home/digibyte && \
     ./configure LDFLAGS="-L/home/digibyte/db4/lib/" CPPFLAGS="-I/home/digibyte/db4/include/" && \
     make 
     
-EXPOSE 10332 10333
+EXPOSE 12024 14022
 
 #VOLUME ["/home/digibyte/.digibyte"]
 
